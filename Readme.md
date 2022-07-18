@@ -2,7 +2,7 @@
 <div align="center">
     
 
-    <h1>Extinct and Endangered website</h1>
+    Extinct and Endangered Website 
 </div>
 <!-- TABLE OF CONTENTS -->
 <details>
