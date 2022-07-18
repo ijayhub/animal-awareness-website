@@ -25,7 +25,7 @@ export const data = [
 	},
 	{
 		id: 4,
-		img: './src/img/tiger.jpg',
+		img: '/src/img/tiger.jpg',
 		description:
 			'the tiger is the largest wild cat in the world. The big cat tail is three feet long.A female tiger gives birth to a litter of three or four cubs.',
 		Link: 'https://kids.nationalgeographic.com/animals/mammals/facts/tiger',
@@ -33,7 +33,7 @@ export const data = [
 	},
 	{
 		id: 5,
-		img: './src/img/Glyptodon.jpg',
+		img: '/src/img/Glyptodon.jpg',
 		description:
 			'One of the most distinctive—and comical-looking—megafauna mammals of prehistoric times, Glyptodon was essentially a dinosaur-sized armadillo, with a huge, round, armored carapace, stubby, turtle-like legs, and a blunt head on a short neck.',
 		Link: 'https://www.thoughtco.com/glyptodon-carved-tooth-1093213',
@@ -41,7 +41,7 @@ export const data = [
 	},
 	{
 		id: 6,
-		img: './src/img/Giraffes.jpg',
+		img: '/src/img/Giraffes.jpg',
 		description:
 			'The giraffe is a tall African hoofed mammal belonging to the genus Giraffa. It is the tallest living terrestrial animal and the largest ruminant- hoofed herbivorous- on Earth. ',
 		Link: 'https://www.nrdc.org/stories/are-giraffes-endangered',
@@ -49,7 +49,7 @@ export const data = [
 	},
 	{
 		id: 7,
-		img: './src/img/sloth.jpg',
+		img: '/src/img/sloth.jpg',
 		description:
 			'Giant ground sloths were large, lumbering beasts that lived in the Americas during the Ice Age. They were directly related to todays modern sloths. They were also distantly related to anteaters and armadillos.',
 		Link: 'https://www.livescience.com/56762-giant-ground-sloth.html',
@@ -57,7 +57,7 @@ export const data = [
 	},
 	{
 		id: 8,
-		img: './src/img/ELephant.jpg',
+		img: '/src/img/ELephant.jpg',
 		description:
 			'Elephants are the largest land mammals on earth and have distinctly massive bodies, large ears, and long trunks. They use their trunks to pick up objects, trumpet warnings, greet other elephants, or suck up water for drinking or bathing, among other uses.',
 		Link: 'https://www.nationalgeographic.com/animals/mammals/facts/african-elephant',
@@ -65,7 +65,7 @@ export const data = [
 	},
 	{
 		id: 9,
-		img: './src/img/golden toad.jpg',
+		img: '/src/img/golden toad.jpg',
 		description:
 			'The golden toad (Incilius periglenes) is an extinct species of true toad that was once abundant in a small, high-altitude region of about 4 square kilometres (1.5 sq mi) in an area north of the city of Monteverde, Costa Rica.It was endemic to elfin cloud forest',
 		Link: 'https://animaldiversity.org/accounts/Incilius_periglenes/',
@@ -73,7 +73,7 @@ export const data = [
 	},
 	{
 		id: 10,
-		img: './src/img/koala.jpg',
+		img: '/src/img/koala.jpg',
 		description:
 			'The koala or, inaccurately, koala bear (Phascolarctos cinereus) is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae and its closest living relatives are the wombats. ',
 		Link: 'https://en.wikipedia.org/wiki/Koala',
@@ -81,7 +81,7 @@ export const data = [
 	},
 	{
 		id: 11,
-		img: './src/img/rhin.jpg',
+		img: '/src/img/rhin.jpg',
 		description:
 			'The Javan rhinoceros, also known as the Javan rhino, Sunda rhinoceros or lesser one-horned rhinoceros, is a very rare member of the family Rhinocerotidae and one of five extant rhinoceroses',
 		Link: 'https://en.wikipedia.org/wiki/Javan_rhinoceros',
@@ -89,7 +89,7 @@ export const data = [
 	},
 	{
 		id: 12,
-        img: './src/img/lion.jpg',
+        img: '/src/img/lion.jpg',
 		description:
 			'The lion is a well-muscled cat with a long body, large head, and short legs. African lions have been admired throughout history for as symbols of courage and strength.',
         Link: 'https://study.com/academy/lesson/why-are-lions-endangered-lesson-for-kids.html',
