@@ -81,7 +81,7 @@ export const data = [
 	},
 	{
 		id: 11,
-		img:  './src/img/rhin.jpg' ,
+		img:  './src/img/rhin.jpg',
 		description:
 			'The Javan rhinoceros, also known as the Javan rhino, Sunda rhinoceros or lesser one-horned rhinoceros, is a very rare member of the family Rhinocerotidae and one of five extant rhinoceroses',
 		Link: 'https://en.wikipedia.org/wiki/Javan_rhinoceros',
@@ -89,7 +89,7 @@ export const data = [
 	},
 	{
 		id: 12,
-		img:  './src/img/lion.jpg' ,
+		img:'./src/img/lion.jpg' ,
 		description:
 			'The lion is a well-muscled cat with a long body, large head, and short legs. African lions have been admired throughout history for as symbols of courage and strength.',
         Link: 'https://study.com/academy/lesson/why-are-lions-endangered-lesson-for-kids.html',
