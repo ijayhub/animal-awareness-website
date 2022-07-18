@@ -7,11 +7,14 @@ import left from '../img/chevron-left.svg'
 
 
 const Checkout = () => {
-  const [btnState, setBtnState] = React.useState(false);
-	const handleClick = () => {
-		setBtnState(!btnState);
-	};
-	let toggleBtnClass = btnState ? 'active' : 'in-active';
+	const[amount, setAmount] = React.useState('')
+	
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		alert('Thank you for contributing')
+		setAmount('')
+		
+	}
   
   return (
 		<div className='body-checkout'>
@@ -32,88 +35,46 @@ const Checkout = () => {
 						This will save lives:
 					</p>
 					<div>
-						<h4 className='font-extrabold mt-8'>Choose an amount:</h4>
+						<h4 className='font-extrabold mt-8'>
+							Choose an amount:{' '}
+							<div className='font-extrabold checkout-numbers my-3'>
+								$5, $15, $25, $50, $100, $250, $500, $1000
+							</div>
+						</h4>
 						<p className='mb-3 leading-7'>
 							Your contribution will benefit Save Animals Facing Extinction.
 						</p>
-						<div className='md:grid grid-cols-4 gap-2 checkout-box  '>
-							<button
-								className={`btn ${toggleBtnClass} font-extrabold`}
-								onClick={handleClick}>
-								{' '}
-								$15
-							</button>
-
-							<button
-								className={`btn ${toggleBtnClass} font-extrabold`}
-								onClick={handleClick}>
-								{' '}
-								$25
-							</button>
-
-							<button
-								className={`btn ${toggleBtnClass} font-extrabold`}
-								onClick={handleClick}>
-								{' '}
-								$50
-							</button>
-
-							<button
-								className={`btn ${toggleBtnClass} font-extrabold`}
-								onClick={handleClick}>
-								{' '}
-								$100
-							</button>
-
-							<button
-								className={`btn ${toggleBtnClass} font-extrabold`}
-								onClick={handleClick}>
-								{' '}
-								$250
-							</button>
-
-							<button
-								className={`btn ${toggleBtnClass} font-extrabold`}
-								onClick={handleClick}>
-								{' '}
-								$500
-							</button>
-
-							<button
-								className={`btn ${toggleBtnClass} font-extrabold`}
-								onClick={handleClick}>
-								{' '}
-								$1000
-							</button>
-
-							<div className='amount-checkout text-center p-4'>
+						<div className='amount-checkout  p-4'>
+							<form onSubmit={handleSubmit}>
 								<input
 									type='text'
 									placeholder='$'
-									className='w-20 checkout-input'
+									className='w-20 checkout-input md:p-3 mt-2'
+									value={amount}
+									onChange={(e) => setAmount(e.target.value)}
 								/>
-							</div>
-						</div>
-						<div>
-							<div>
-								<h4 className='text-checkout font-extrabold my-4'>
-									Make it monthly!
-								</h4>
-							</div>
-							<div className='flex item-center justify-between'>
-								<button
-									className={`btn ${toggleBtnClass} p-2 font-extrabold w-80`}
-									onClick={handleClick}>
-									{' '}
-									Yes, count me in!
-								</button>
-								<button
-									className={`btn ${toggleBtnClass} p-2 font-extrabold w-80`}
-									onClick={handleClick}>
-									{' '}
-									No, count me out!
-								</button>
-							</div>
+								<div>
+									<div>
+										<h4 className='text-checkout font-extrabold my-4 md:text-xl'>
+											Make It Monthly!
+										</h4>
+										<label htmlFor='yes'>Yes</label>
+										<input
+											type='checkbox'
+											name='yes'
+											id='yes'
+											className='mx-4'
+										/>
+										<label htmlFor='no'>No</label>
+										<input type='checkbox' name='no' id='no' className='mx-4' />
+									</div>
+									<button
+										type='submit'
+										className='checkbox-btn__btn mt-2 p-2 block'>
+										Contribute
+									</button>
+								</div>
+							</form>
 						</div>
 						<div className='mt-4 block'>
 							<button className='bg-black g-pay text-center  flex items-center justify-center'>
@@ -126,7 +87,6 @@ const Checkout = () => {
 								<span className='text-blue-500 font-extrabold'>Pal</span>
 							</button>
 						</div>
-
 						<div className='mt-4 text-white'>
 							<button className='card-pay g-pay flex items-center justify-center'>
 								<img
@@ -139,7 +99,6 @@ const Checkout = () => {
 						</div>
 					</div>
 				</div>
-				
 			</div>
 			<a href='/'>
 				<div className='left'>

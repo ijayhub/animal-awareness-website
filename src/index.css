@@ -171,13 +171,7 @@ button{
   border-radius:5px;
   outline:none;
 }
-button.active{
-  background-color:#1c2345;
-  color: #d4d9e0;
-}
-.btn{
-  background-color: #d4d9e0;
-}
+
 .amount-checkout{
   background-color: #d4d9e0
 }
@@ -219,6 +213,17 @@ button.active{
   left:100px;
   bottom:100px;
 }
+.checkbox-btn__btn{
+  background-color: #010034;
+  color: #fff;
+  width: 100%;
+}
+.checkbox-btn__btn:hover{
+  background-color: forestgreen;
+  color: white;
+  
+}
+
 
 
 @media only screen and (max-width: 768px){
@@ -271,9 +276,8 @@ button.active{
   .extinction-checkout{
     width:100%;
   }
-  .checkout-box{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+  .checkout-numbers{
+    font-size:13px;
   }
   .left{
     position:absolute;
