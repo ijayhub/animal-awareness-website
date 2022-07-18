@@ -13,12 +13,12 @@ const Footer = () => {
 								<img src={fb} alt='facebook' />
 							</div>
 						</a>
-						<a href='https://twitter.com' target='_blank'>
+						<a href='https://youtube.com' target='_blank'>
 							<div className='social-icon'>
 								<img src={yt} alt='youtube' />
 							</div>
 						</a>
-						<a href='https://youtube.com'>
+						<a href='https://twitter.com' target='_blank'>
 							<div className='social-icon'>
 								<img src={tw} alt='twitter' />
 							</div>

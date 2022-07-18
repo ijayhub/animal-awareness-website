@@ -48,7 +48,7 @@ const Checkout = () => {
 							<form onSubmit={handleSubmit}>
 								<input
 									type='text'
-									placeholder='$'
+									placeholder='$ amount'
 									className='w-20 checkout-input md:p-3 mt-2'
 									value={amount}
 									onChange={(e) => setAmount(e.target.value)}

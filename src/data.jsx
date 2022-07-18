@@ -9,7 +9,7 @@ export const data = [
 	},
 	{
 		id: 2,
-		img: './src/img/giant-panda.jpg',
+		img:  './src/img/giant-panda.jpg',
 		description:
 			'Giant pandas are black and white and loved all over. The giant panda is a national treasure in China and is therefore protected by law in its bamboo forest home. ',
 		Link: 'https://animals.sandiegozoo.org/animals/giant-panda',
