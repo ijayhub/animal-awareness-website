@@ -89,5 +89,3 @@ You may also see any lint errors in the console.
 
 * [Save Animals](https://saveanimalsfacingextinction.org/)
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-still in progress
