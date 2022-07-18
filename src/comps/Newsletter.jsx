@@ -1,0 +1,38 @@
+import React from 'react'
+
+const Newsletter = () => {
+    const [email, setEmail] = React.useState('');
+    const handleSubmit = (e) => {
+        e.preventDefault();
+		setEmail('')
+		alert('subscribed')
+    };
+    return (
+			<section className='new-letter mt-8' id="news-letter">
+				<div className='container mx-auto grid grid-cols-2 p-20 news-updates'>
+					<div className=' font-bold'>
+						<h3 className='md:text-4xl mb-3 text-white'>
+							Want Latest Info And Updates?
+						</h3>
+						<small className='md:text-xl mb-2'>
+							Sign up for newsletter and stay up to date
+						</small>
+					</div>
+					<form onSubmit={handleSubmit}>
+						<input
+							type='email'
+							placeholder=' Your Email'
+							className='p-2 newLetter-form border-none outline-none '
+							value={email}
+							onChange={(e) => setEmail(e.target.value)}
+						/>
+						<button type='submit' className='newLetter-btn p-2 text-white  '>
+							SUBMIT
+						</button>
+					</form>
+				</div>
+			</section>
+		);
+}
+
+export default Newsletter

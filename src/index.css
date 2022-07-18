@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Nunito+Sans&family=Roboto&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+  --bg-primary:#aeda47;
+  --text-color:#aeda47;
+}
+body{
+  font-family:'Nunito'
+}
+.text-nav{
+  font-family: 'Niconne', cursive;
+}
+.btn-Navbar{
+  background-color:var(--bg-primary);
+}
+.bg-hero{
+  background-image: url('./img/1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.btn-hero{
+  background-color: var(--bg-primary);
+}
+.overlay-hero{
+  background-color: rgba(0,0,0,0.5);
+  height:100vh;
+}
+/* ......................form-hero */
+.chevron-right__hero{
+  background-color: #4d4e52;
+}
+.chevron-right__hero1{
+  position: relative;
+  left:220px;
+}
+/* ........................................together section */
+.together{
+  background-color: #EAEAF5;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+.btn-btn{
+  color:var(--text-color);
+  background-color: white;
+}
+.chevron{
+  position:relative;
+  left:880px;
+
+}
+
+/* ..................learn more gallery */
+.text-gallery{
+  color:var(--text-color);
+}
+/* ..........................gallery */
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image to responsive */
+.image {
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container:hover .overlay {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.animal-name{
+  color:var(--text-color);
+}
+.chevron-right{
+  background-color: var(--bg-primary);
+  width:10%;
+  padding:5px;
+  border-radius:50%;
+  position: relative;
+  left:110px;
+}
+/* ...................animation gallery */
+.scale-in-center{animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both}
+
+@keyframes scale-in-center{0%{transform:scale(0);opacity:1}100%{transform:scale(1);opacity:1}}
+.top{
+  position: relative;
+  left:1200px;
+}
+
+/*.......................... news-letter */
+.new-letter{
+  background-color: var(--bg-primary);
+}
+.newLetter-form{
+  width:70%;
+}
+.newLetter-btn{
+  background-color: #4d4e52;
+}
+/* .........................................footer............................ */
+.bg-footer{
+  background-color:#20202a;
+}
+
+.social-icon{
+  border: 1px solid #2e2e36;
+  padding:15px;
+  border-radius:50%;
+  background-color: #2e2e36;
+}
+.text-footer{
+  color:#2e2e36;
+  border: 2px solid #2e2e36;
+  font-size: 14px;
+  
+}
+.text-footer1{
+  color:#2e2e36;
+  font-size: 14px;
+  
+}
+.footer-term{
+  color:var(--text-color);
+}
+/* ....................checkout.............. */
+.body-checkout{
+  background-image:linear-gradient(to right,#fff,#3fce3e);
+  height:100vh;
+}
+.extinction-checkout{
+  width:40%;
+  
+}
+button{
+  border:none;
+  padding:10px 5px;
+  cursor:pointer;
+  border-radius:5px;
+  outline:none;
+}
+button.active{
+  background-color:#1c2345;
+  color: #d4d9e0;
+}
+.btn{
+  background-color: #d4d9e0;
+}
+.amount-checkout{
+  background-color: #d4d9e0
+}
+.checkout-input{
+  border:none;
+  outline: none;
+  width:100%;
+}
+.text-checkout{
+  color:#1c2345;
+}
+.text-checkout:hover{
+  color:#d4d9e0;
+}
+.btn-checkout{
+  width:20%;
+}
+.g-pay{
+  width:100%;
+}
+.g-pay__img{
+  width:50px;
+  height:30px;
+  object-fit: cover;
+
+}
+.card-pay{
+  background-color: #010034 ;
+}
+.underline{
+  width: 150px;
+  height:5px;
+  background-color:#a6ce39;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.left{
+  position: relative;
+  left:100px;
+  bottom:100px;
+}
+
+
+@media only screen and (max-width: 768px){
+  .top{
+    display:none;
+  }
+
+}
+@media only screen and (max-width:600px){
+  .animal-card{
+    display:flex;
+    flex-direction: column;
+  }
+  .chevron{
+    display: none;
+  }
+  .chevron-right__hero{
+    display: block;
+  
+  }
+  .chevron-right{
+    position: relative;
+    left:60px;
+  }
+ 
+.hero-form{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 5px;
+  width: 97%;
+}
+.hero-chevron__icon{
+    display:block;
+  }
+  .chevron-right__hero1{
+    left:130px;
+  }
+  .news-updates{
+    display: flex;
+    flex-direction: column;
+  }
+  .newLetter-form{
+    width:100%;
+    margin-bottom: 5px;
+  }
+  .top{
+    display:none;
+  }
+  .extinction-checkout{
+    width:100%;
+  }
+  .checkout-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .left{
+    position:absolute;
+    top:30px;
+    left:20px;
+  }
+  
+  
+
+}
