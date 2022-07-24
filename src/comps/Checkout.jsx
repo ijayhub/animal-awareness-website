@@ -1,6 +1,5 @@
 import React from 'react'
 import pay from '../img/g-pay.jpg'
-// import { AiFaCcVisa } from 'react-icons/ai';
 import card from '../img/credit-card.svg'
 import left from '../img/chevron-left.svg'
 
