@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../comps/Navbar';
-import Together from '../comps/Together';
-import LearnMoreGallery from '../comps/LearnMoreGallery';
-import Hero from '../comps/Hero';
+import Navbar from '../components/Navbar';
+import Together from '../components/Together';
+import LearnMoreGallery from '../components/LearnMoreGallery';
+import Hero from '../components/Hero';
 import Newsletter from './Newsletter';
 import Footer from './Footer';
 

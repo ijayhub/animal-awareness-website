@@ -1,7 +1,7 @@
 export const data = [
 	{
 		id: 1,
-		img:  'src/img/mammoth.jpg' ,
+		img: 'src/img/mammoth.jpg'  ,
 		description:
 			'Woolly mammoths are extinct relatives of todays elephants.woolly mammoths, roamed the cold tundra of Europe, Asia, and North America from about 300,000 years ago up until about 10,000 years ago.',
 		Link: 'https://kids.nationalgeographic.com/animals/prehistoric/facts/woolly-mammoth',

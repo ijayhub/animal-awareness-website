@@ -1,7 +1,7 @@
 import React from 'react'
 import {Routes, Route} from 'react-router-dom'
-import Checkout from './comps/Checkout';
-import Home from './comps/Home';
+import Checkout from './components/Checkout';
+import Home from './components/Home';
 
 
 const App = () => {
