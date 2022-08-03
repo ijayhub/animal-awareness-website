@@ -158,7 +158,7 @@ body{
 /* ....................checkout.............. */
 .body-checkout{
   background-image:linear-gradient(to right,#fff,#3fce3e);
-  height:100%;
+ 
 
 }
 .extinction-checkout{
@@ -238,6 +238,7 @@ button{
   }
   .scroll{
     overflow: hidden;
+    height:100%;
   }
 
 }
@@ -293,7 +294,7 @@ button{
     top:30px;
     left:20px;
   }
-  
-  
-
+  .scroll{
+    height:100%;
+  }
 }

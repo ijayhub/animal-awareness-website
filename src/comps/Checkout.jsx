@@ -24,7 +24,7 @@ const Checkout = () => {
 					<div className='underline'></div>
 				</h2>
 
-				<div className=' shadow-2xl bg-white extinction-checkout p-8 '>
+				<div className=' shadow-2xl bg-white extinction-checkout p-8  '>
 					<h3 className='md:text-3xl font-extrabold mb-4 leading-10'>
 						Support Save Animals Facing Extinction!
 					</h3>
