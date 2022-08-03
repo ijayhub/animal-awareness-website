@@ -16,7 +16,7 @@ const Checkout = () => {
 	}
   
   return (
-		<div className='body-checkout'>
+		<div className='body-checkout scroll lg:h-screen'>
 			<div className='container mx-auto flex flex-col items-center justify-center'>
 				<h2 className='text-center md:text-4xl text-white py-8 font-extrabold '>
 					SAVE ANIMALS

@@ -158,7 +158,8 @@ body{
 /* ....................checkout.............. */
 .body-checkout{
   background-image:linear-gradient(to right,#fff,#3fce3e);
-  height:100vh;
+  height:100%;
+
 }
 .extinction-checkout{
   width:40%;
@@ -224,11 +225,19 @@ button{
   
 }
 
-
+@media only screen and (max-width: 1300px){
+  .scroll{
+    overflow: hidden;
+    /* margin-bottom: 0; */
+  }
+}
 
 @media only screen and (max-width: 768px){
   .top{
     display:none;
+  }
+  .scroll{
+    overflow: hidden;
   }
 
 }

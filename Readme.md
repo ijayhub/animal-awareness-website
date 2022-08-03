@@ -39,7 +39,7 @@ Tailwind css was used to create this project. It is a web app for tracking jobs.
 
 * [Repo codes](https://github.com/ijayhub/animal-awareness-website)
 
-* [LIVE LINK]()
+* [Hosted link](https://animal-awareness.netlify.app)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
