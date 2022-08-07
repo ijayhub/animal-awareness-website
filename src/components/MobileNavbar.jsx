@@ -3,12 +3,12 @@ import close from '../img/x (2).svg'
 
 
 const MobileNavbar = ({showNav,active}) => {
-  return (
+	return (
 		<>
 			<ul
 				className={
 					active
-						? 'flex-col flex-center flex items-center gap-8 p-12 justify-center text-white text-xl md:hidden'
+						? 'flex-col flex-center flex items-center gap-6 p-8 justify-center text-white text-xl md:hidden'
 						: 'hidden'
 				}>
 				<div className=''>
@@ -23,7 +23,9 @@ const MobileNavbar = ({showNav,active}) => {
 					<a href='/'>HOME</a>
 				</li>
 				<li>
-					<a href='#gallery'>GALLERY</a>
+					<a href='#gallery' className='text-sm'>
+						GALLERY
+					</a>
 				</li>
 				<li>
 					<a href='#news-letter'>UPDATE</a>
