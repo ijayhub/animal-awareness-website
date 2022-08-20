@@ -4,7 +4,7 @@ const Newsletter = () => {
     const [email, setEmail] = React.useState('');
 	const handleSubmit = () => {
 		setEmail('')
-		alert('subscribed for newsletter')
+	
 		
     };
     return (
