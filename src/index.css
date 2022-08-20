@@ -50,8 +50,11 @@ body{
 }
 .chevron{
   position:relative;
-  left:880px;
-
+  
+}
+.chevron1{
+  position:absolute;
+  left:700px
 }
 
 /* ..................learn more gallery */
