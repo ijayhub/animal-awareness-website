@@ -12,11 +12,6 @@ const Together = () => {
 					<button className='btn-btn p-4 md:w-96 rounded border-none mb-3'>
 						Learn More
 					</button>
-					<a href='#gallery'>
-						<div className='chevron  mt-3'>
-							<img src={chevron} alt='chevron' className='chevron1' />
-						</div>
-					</a>
 				</section>
 			</>
 		);

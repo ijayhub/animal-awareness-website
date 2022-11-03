@@ -9,7 +9,7 @@ const Navbar = () => {
     }
     return (
 			<>
-				<header className='flex items-center justify-around w-full bg-black p-4 shadow-lg '>
+				<header className='flex items-center justify-around w-full bg-black sm:p-3'>
 					<div className='text-nav font-bold md:text-3xl'>
 						<h1 className='text-white'>
 							Extinct_<span className='text-green-900'>Endangered</span>
@@ -24,7 +24,7 @@ const Navbar = () => {
 								className=' px-5 cursor-pointer'
 							/>
 						</div>
-						<ul className='hidden md:flex items-center justify-center  gap-8 p-4 uppercase text-white font-bold'>
+						<ul className='hidden md:flex items-center justify-center  gap-8 p-2 uppercase text-white font-bold'>
 							<li>
 								<a href="/">HOME</a>
 							</li>
@@ -36,7 +36,7 @@ const Navbar = () => {
 							</li>
 							<a href='Checkout'>
 								<div>
-									<button className='btn-Navbar p-4 rounded-lg border-none'>
+									<button className='btn-Navbar p-2 rounded-lg border-none'>
 										Contribute
 									</button>
 								</div>

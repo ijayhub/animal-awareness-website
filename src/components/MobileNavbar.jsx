@@ -20,7 +20,9 @@ const MobileNavbar = ({showNav,active}) => {
 					/>
 				</div>
 				<li>
-					<a href='/'>HOME</a>
+					<a href='/' className='text-sm'>
+						HOME
+					</a>
 				</li>
 				<li>
 					<a href='#gallery' className='text-sm'>
@@ -28,11 +30,13 @@ const MobileNavbar = ({showNav,active}) => {
 					</a>
 				</li>
 				<li>
-					<a href='#news-letter'>UPDATE</a>
+					<a href='#news-letter' className='text-sm'>
+						UPDATE
+					</a>
 				</li>
 				<a href='Checkout'>
 					<div>
-						<button className='btn-Navbar p-4 rounded-lg border-none'>
+						<button className='btn-Navbar p-2 rounded-lg border-none text-sm'>
 							Contribute
 						</button>
 					</div>
